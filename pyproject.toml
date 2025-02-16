@@ -1,0 +1,13 @@
+[project]
+name = "postgres-db-vector"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "docling>=2.22.0",
+    "ollama>=0.4.7",
+    "psycopg2-binary>=2.9.10",
+    "python-dotenv>=1.0.1",
+    "ruff>=0.9.6",
+]
