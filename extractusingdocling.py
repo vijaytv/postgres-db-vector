@@ -13,13 +13,6 @@ import json
 # SUPABASE_URL = os.getenv("SUPABASE_URL")
 # SUPABASE_KEY = os.getenv("SUPABASE_KEY")
 
-urls = [
-    'https://docs.pydantic.dev/latest/examples/files/',
-    'https://docs.pydantic.dev/latest/examples/requests/',
-    'https://docs.pydantic.dev/latest/examples/queues/',
-    'https://docs.pydantic.dev/latest/examples/orms/',
-    'https://docs.pydantic.dev/latest/examples/custom_validators/'
-]
 
 
 def parse_url(url):
